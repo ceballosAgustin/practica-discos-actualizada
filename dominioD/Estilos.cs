@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+// Cambio el namespace
+namespace dominioD
+{
+    // La hago publica
+    public class Estilos
+    {
+        public int Id { get; set; }
+        public string Descripcion { get; set; }
+
+        public override string ToString()
+        {
+            return Descripcion;
+        }
+    }
+}
